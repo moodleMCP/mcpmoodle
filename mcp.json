@@ -1,0 +1,60 @@
+{
+  "name": "moodle-mcp",
+  "version": "1.0.0",
+  "description": "MCP server para interactuar con Moodle via REST.",
+  "tools": [
+    {
+      "name": "list_courses"
+    },
+    {
+      "name": "get_course_contents"
+    },
+    {
+      "name": "get_user_by_email"
+    },
+    {
+      "name": "enroll_user"
+    },
+    {
+      "name": "unenroll_user"
+    },
+    {
+      "name": "list_assignments"
+    },
+    {
+      "name": "get_submissions"
+    },
+    {
+      "name": "grade_submission"
+    },
+    {
+      "name": "list_forums"
+    },
+    {
+      "name": "post_forum_discussion"
+    },
+    {
+      "name": "upload_file"
+    },
+    {
+      "name": "list_quizzes"
+    },
+    {
+      "name": "get_quiz_attempts"
+    }
+  ],
+  "resources": [
+    {
+      "uriTemplate": "course/{id}",
+      "description": "Resumen de curso"
+    },
+    {
+      "uriTemplate": "user/{id}",
+      "description": "Perfil b\u00e1sico de usuario"
+    },
+    {
+      "uriTemplate": "assignment/{id}",
+      "description": "Metadatos de tarea"
+    }
+  ]
+}
